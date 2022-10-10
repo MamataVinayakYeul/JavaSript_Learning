@@ -40,3 +40,11 @@ function addition(arg1,arg2,arg3){
     console.log(arg1+arg2+arg3);
 }
 addition();
+console.log("======;")
+function test(arg1, arg2) {
+    console.log(arg1, arg2);
+    return "Sachin";
+}
+var val = test(23, 45, 60);
+console.log(val)
+

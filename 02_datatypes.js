@@ -22,3 +22,7 @@ var my_properties=null;
 console.log(my_properties);
 var my_project_name;
 console.log(my_project_name);
+var x=["Banana","Mango","Grapes"];
+console.log(typeof x);
+var y=["postive","self-motivated"];
+console.log(typeof y);
