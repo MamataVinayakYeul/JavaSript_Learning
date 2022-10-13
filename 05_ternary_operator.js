@@ -17,3 +17,6 @@ var num1 = -5;
  var result= "I am angular Develor".split(" length");
  var total_words=result.length;
  
+ var myNumber=11;
+ var myReuslt=myNumber%2==0?"True":"False";
+ 

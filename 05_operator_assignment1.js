@@ -1,7 +1,6 @@
 var wordLengthSquare=function(word){
     var wordLength=word.length;
     return wordLength*wordLength;
-
  }
  var word ="Javascript";
  console.log(`The legth of "Javascript:"`,word.length);

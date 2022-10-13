@@ -29,7 +29,7 @@ console.log(result);
 console.log("--------------------------------")
 var string2="Developer";
 var strLength=string2.length;
-result= strLength % 2 ?"Even":"odd";
+result= strLength %2==0 ?"Even":"odd";
 console.log(strLength);
 console.log(result);
 console.log("-----------------------")
