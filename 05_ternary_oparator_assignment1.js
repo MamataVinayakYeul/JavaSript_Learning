@@ -1,5 +1,3 @@
-function functionName(name, Gender, age) {
-}
  function MaleMarriageEligibilityCheck(gender, age, boy_name)
  {
     if (gender=="Male" && age >=21) 
