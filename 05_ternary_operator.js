@@ -5,7 +5,7 @@ var num1 = -5;
  var result = num1 > 0 ? "Positive" : "Negative";
  console.log(result);
  var myNumber=11;
- var myReuslt=myNumber%2==0?"True":"False";
+ var myResult=myNumber%2==0?"True":"False";
  console.log(myResult);
 
  

@@ -4,7 +4,3 @@ count=2000;
 count="Latika";
 count="Sachin";
 console.log(count);
-
-if(true){
-    var count=10;
-}
