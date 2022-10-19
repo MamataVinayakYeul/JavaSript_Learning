@@ -24,19 +24,19 @@ console.log("=================Check string even or odd=================");
 var string1="Javascript";
 var strLength=string1.length;
 result=strLength/2?"Even":"odd";
-console.log(strLength);
+console.log("The length of string JavaScript",strLength);
 console.log(result);
 console.log("--------------------------------")
 var string2="Developer";
 var strLength=string2.length;
 result= strLength %2==0 ?"Even":"odd";
-console.log(strLength);
+console.log("The length of string Developer",strLength);
 console.log(result);
 console.log("-----------------------")
 var string3="Google";
 var strLength=string3.length;
 result=strLength/2?"Even":"odd";
-console.log(strLength);
+console.log(" The length of string Google",strLength,result);
 console.log(result);
 
 
