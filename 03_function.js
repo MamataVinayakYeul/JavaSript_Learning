@@ -7,16 +7,16 @@ function sachin(money){
 var veg=sachin(500);
 console.log(veg);
 
-function functionName(city,street,age,is_married){
-//city
-//street
-//age
-//is_married
-return true,"Roja";
+// function functionName(city,street,age,is_married){
+// //city
+// //street
+// //age
+// //is_married
+// return true,"Roja";
 
-}
-var value= functionName("Amravati","Rahatgaon",22,Yes)
-console.log(value);
+// }
+// var value= functionName("Amravati","Rahatgaon",22,Yes)
+// console.log(value);
 
 function swap_values(arg1,arg2){
     console.log("-------Before swap--------");
@@ -67,3 +67,22 @@ function square(number) {
 }
 square(20);
 // console.log(square(20));
+console.warn("----------------------------------------------------------------------------------------");
+let x=20;let y=40;z=70;
+console.log("Addition of 20+40=",x+y);
+// console.log(eval(x+y));
+console.log(eval(z));
+console.warn("-----------------------------------------------------------------------------------------");
+ function square(number) {
+    return number*number;
+}
+let number=square(2);
+console.log("The square of 2 is:",number*number);
+function square(number) {
+    // return number*number;
+    console.log("Square of 2 is:",number*number);
+}
+square(2);
+function mul(num) {
+    
+}
