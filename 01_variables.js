@@ -18,6 +18,7 @@ console.log(fName+mName+lName);
 console.log(fName,mName,lName);
 console.warn("-----------------------------------------------------");
 var a="CodeMind";
+var b="JavaScript";
 var c=45;
 a="Software Developer";
 

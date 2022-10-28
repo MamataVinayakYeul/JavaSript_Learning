@@ -1,10 +1,7 @@
 console.log("----------Function with no argument and no return value----------");
 function name1(firstName){
-
 console.log("My first name is:", firstName);
-
 }
-
 name1(Vishal);
 
 console.log("----------Function with argument and no return value----------");

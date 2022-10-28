@@ -1,12 +1,9 @@
-// var arrayOfNumbers=[1,3,7,8,9,3,7];
-// console.log(arrayOfNumbers);
-// var arrayLength =arrayOfNumbers.length;
-// console.log(`Total number of elements available in array: ${arrayLength}`);
-// console.log(`Element at fourth index is:${arrayOfNumbers[4]}`);
-// arrayOfNumbers[2]=77;
-// console.log(arrayOfNumbers);
-// var myName="Mamata";
-// myName="Mamata Yeul";
+const array1 = [1, 3, 4];
+const array2 = [5, 6, 7];
+// const array3 = array1.concat(array2);
+const array3 = [...array1, ...array2]
+console.log(array3);
+console.log("-----------------------------");
 
 var arrayOfNumbers = [1, 3, 7, 8, 9, 3, 7];
 console.log(arrayOfNumbers);
