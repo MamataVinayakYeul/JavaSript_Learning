@@ -10,7 +10,6 @@ console.log("-----------------------------");
 
 var arrayOfNumbers = [1, 3, 7, 8, 9, 3, 7];
 console.log(arrayOfNumbers);
-arrayOfNumbers.push(88);
 arrayOfNumbers.push(99,88);
 // arrayOfNumbers.push(88);
 arrayOfNumbers.pop();

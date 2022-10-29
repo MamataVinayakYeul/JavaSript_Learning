@@ -76,7 +76,12 @@ function sumArray(array_numbers) {
 }
 sumArray([20,31,40,25,23,11,29,9,60,2,11])
 console.log("--------------------------------------------------------");
-console.log("Question 9: Multiple of 5 ");
+console.log("Question 9: Find Number which are multiple of 5 ");
+for (let index = 0; index < array_numbers.length; index++) {
+    if (array_numbers[index]%5==0) {
+        console.log(array_numbers[index]) ;
+    }  
+}
 
 console.log("--------------------------------------------------------");
 console.log("Question 10");
