@@ -19,9 +19,7 @@ address:{
      details:function(){
         let personDetails=`Details are: ${this.fullName}, ${this.age},${this.address.city}`; 
        return personDetails;
- 
      }
-
 }
 let pDetails=person.details();
 console.log(pDetails);
@@ -31,7 +29,7 @@ console.log(person.address.street);
 
 person.eat();
 person.walk();
-person.address.landmark="Near Main Road";
+person.address.landmark="Near Main Road";//add landmark subkey in address key
 person.fullName='Sachin Ramesh Tendulkar';//update/modify the fullName
 person.pinCode=123456;
 person.profession="Angular Developer";//add new keyword
@@ -42,12 +40,11 @@ console.log(person.age);
 
 let personFullName=person.fullName;
 console.log(personFullName);
-console.log(person.fullName);
-
+console.log("----------------------------------------------------");
 console.log(Object.entries(person));
 console.log(Object.keys(person));
 console.log(Object.values(person));
-console.warn("-----------------------------------------------");
+
 let Person={
    fullName:"Mohit",
    Age:32,
@@ -62,3 +59,16 @@ let isAvailable="fullName" in Person;
 console.log("fullName property is available in Person object:",isAvailable);
 console.log("city is available in Person object:","city"in Person);
 console.log("The type of Person is:",typeof Person);
+console.warn("-----------------------------------------------");
+const user={
+   name:"Mohan",
+   age:34,
+   designation:"Software developer"
+}
+console.log(Object.keys(user));
+console.log(Object.entries(user));
+console.log(Object.values(user));
+for (const [key,value] of Object.entries(user)) {
+   console.log(`${key}=>${value}`);
+}
+

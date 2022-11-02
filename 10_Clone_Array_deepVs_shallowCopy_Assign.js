@@ -40,3 +40,5 @@ console.log(employee_info);
 console.log(employee_info.address.locality.colony.street);
 employee_info.mobiles[0]="9975667268";
 console.table(employee_info.mobiles);
+
+

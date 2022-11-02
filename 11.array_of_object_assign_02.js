@@ -27,6 +27,11 @@ console.log(object4);
 console.log(object5);
 console.log(object6);
 console.log("-------------------------------------------------------------");
+let merged_arr=Object.assign({},object1,object2);
+console.log(merged_arr);
+// const arr=["object1","object2","object3","object4","object5","object6"];
+
+console.log("-------------------------------------------------------------");
 console.log("Question 3:Bank_Name and Bank_Location");
 console.log(object1.bank_name,object1.location);
 console.log(object2.bank_name,object2.location);
@@ -37,3 +42,6 @@ console.log(object6.bank_name,object6.location);
 console.log("-------------------------------------------------------------");
 console.log("Question 4:Find object kotak bank by using for of loop");
 
+// for (const [key,value] of Object.entries(user)) {
+//     console.log(`${key}=>${value}`);
+//  }

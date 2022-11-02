@@ -38,4 +38,11 @@ console.warn("------------------------------------------------------------------
 console.log("Question 5: Merge Object");
 let sbi_details=Object.assign(bank_sbi,bank_location,rate_of_interest);
 console.table(sbi_details);
+console.log("---------------------------------------------------------------------");
 console.log("Question 6: Traverse the object ");
+for (const key in sbi_details) {
+    if (Object.hasOwnProperty.call(sbi_details, key)) {
+        const element = sbi_details[key];
+        console.log(element);
+    }
+}

@@ -19,8 +19,8 @@ rohit.details();
 console.log(sachin);
 console.log(rohit);
 
-console.log(typeof(sachin));
-console.log(typeof rohit);
+console.log("Type of sachin object is:-",typeof(sachin));
+console.log("Type of rohit object is:-",typeof rohit);
 console.warn("---------------------------------------------------------------");
  class Student{
     constructor(sname,rollNo,schoolName){
