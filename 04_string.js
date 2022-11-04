@@ -6,7 +6,11 @@ console.log(greet.length);
 console.log(greet.charAt(8));
 var sonali = greet.charAt(8);
 console.log(sonali);
-console.log("=====charAt()=====")
+console.warn("---------------------------------------------");
+var str1="JavaScript";
+var str2="Software";
+console.log("======concat()======");
+console.log("=====charAt()=====");
 console.log("=====indexOf()=========");
 greet.indexOf(4);
 
@@ -23,6 +27,7 @@ console.log("=======toUpperCase() and tolowercase()====")
 replaceDemo.toUpperCase();
 console.log(replaceDemo.toUpperCase());
 console.log(replaceDemo.toLowerCase());
+console.warn("---------------------------------------------");
 var greet="   Good Evening bro and sis      ";
 console.log('The length of string -Good Evening bro and sis is:-',greet.length);
 var trimResult=greet.trim();
@@ -45,14 +50,14 @@ console.log("==============split()===============");
 var studentList  = "Sunil | Anil| Andy| Jenny| Lata";
 var splitResult = studentList.split("|");
 console.log(splitResult);
-
+console.warn("---------------------------------------------");
 var impQuote = `"Do or Die" this attitude is important for this training`;
 console.log(impQuote);
 var fName = "Virat";
 var lName = "Kohli";
 // First Name:${fName}  Last Name: ${lName} 
 console.log(`First Name : ${fName} and Last Name: ${lName}`);
-
+console.warn("---------------------------------------------");
 var res = "Hey you are doing good keep it up";
 var stepSplit =  res.split(" ");
 console.log(stepSplit);
@@ -73,10 +78,11 @@ var string2="My father is a farmer";
 console.log("The length of string My name is Raju and i will become a good civilian and good human being:",string1.length);
 console.log("The length of string-My father is a farmer:", string2.length);
 console.log();
-console.log(string1.includes('Raju'));//if string contains given piece(slice) of string the reurn true
+console.log(string1.includes('Raju'));//if string contains given piece(slice) of string then reurn true
 console.log(string2.includes('forther'));//return false
 console.log(string1.concat(string2));
 console.log(string2.charAt(3));
+console.warn("---------------------------------------------");
 var text="Lets find where 'pen' occurs!";
 console.log(text.indexOf('pen'));//return index of pen word from given string
 console.log(text.substring(0,7));//return 7 characters from index 0 -7 including space
@@ -87,6 +93,7 @@ console.log(text.toLowerCase());
 console.log(text.toUpperCase());
 console.log(text.toString());//return given string
 console.log(text.valueOf());//return value of given string
+console.warn("---------------------------------------------");
 const s= 3.14;
 console.log(typeof(s));
 var text="      Lets find where 'pen' occurs!            ";
@@ -98,6 +105,7 @@ var str="hello dev"
 console.log(str.search("dev"));
 console.log(str.substring(1,4));
 console.log(str.substr(4,6));
+console.warn("---------------------------------------------");
 var boy="A B C D E F good";
 console.log("The char code of A is:",boy.charCodeAt(0));
 console.log("The char code of B is:",boy.charCodeAt(2));
@@ -106,13 +114,15 @@ var strr="lopersum lopersum lopersum lopersum";
 console.log(strr.match(/sum/));
 var str = '1,2,3,4,5,6';
 console.log(str.split(","));
+console.warn("---------------------------------------------");
 var arr="Mamata, Sachin,Ashish, Anu";
 console.log(arr.split(','));
 console.log(arr.toLowerCase());
 //string template variable substitution
+console.warn("---------------------------------------------");
 var firstName="codemind";
 var lastName="technology";
-console.log(`First name is:${firstName} and Last name is:${lastName}`);
+console.log(`First name is:${firstName} and Last name is:${lastName}`);//string template
 
 
 

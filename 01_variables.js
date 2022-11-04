@@ -6,7 +6,7 @@ console.log(my_name);
 console.log(my_apple);
 console.warn("-----------------------------------------------------");
 var name="Shrikant";
-// name="Shrikant";
+ name="Shaktikant";
 console.log(name);
 var firstname="Mamata";
 var lastname="Yeul";

@@ -1,5 +1,4 @@
 function sachin(money){
-    
     console.log("Please go in market with Rs.:",money);
     console.log("Buy some vegetables");
     return "vegetables bag";
@@ -7,16 +6,12 @@ function sachin(money){
 var veg=sachin(500);
 console.log(veg);
 
-// function functionName(city,street,age,is_married){
-// //city
-// //street
-// //age
-// //is_married
-// return true,"Roja";
-
-// }
-// var value= functionName("Amravati","Rahatgaon",22,Yes)
-// console.log(value);
+function functionName(city,street,age,is_married){
+return true,"Roja";
+ }
+var value= functionName("Amravati","Rahatgaon",22,"Yes");
+console.log(value);
+console.warn("----------------------------------------------------------");
 
 function swap_values(arg1,arg2){
     console.log("-------Before swap--------");
@@ -40,7 +35,7 @@ function addition(arg1,arg2,arg3){
     console.log(arg1+arg2+arg3);
 }
 addition();
-console.log("======;")
+console.log("===========================================================");
 function test(arg1, arg2) {
     console.log(arg1, arg2);
     return "Sachin";
@@ -83,6 +78,13 @@ function square(number) {
     console.log("Square of 2 is:",number*number);
 }
 square(2);
-function mul(num) {
-    
+console.warn("-----------------Multiplication Of 2 Numbers-----------------------");
+function mul(num1,num2) {
+   console.log("Multiplication of two numbers:",num1*num2);
 }
+mul(10,2);
+console.warn("--------------------Division Of 2 Numbers---------------------------");
+function division(arg1,arg2) {
+    console.log("Division of two numbers:",arg1/arg2);
+}
+division(400,5);

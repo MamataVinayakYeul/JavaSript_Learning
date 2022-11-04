@@ -6,7 +6,7 @@ console.log("Before swap variable:-",sweety,cutie);
 var temp =sweety;
 sweety=cutie;
 cutie=temp;
-console.log("After swaping:-", sweety,temp);
+console.log("After swaping:-", sweety,cutie);
 
 var num1=100;
 var num2=200;
