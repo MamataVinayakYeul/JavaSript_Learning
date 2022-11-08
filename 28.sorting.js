@@ -1,3 +1,4 @@
+console.log("----Sort() method----------------------");
 const arrayOfNames=["Anil","Shantanu","Nutan","Suyog","DD","Pradhnya"]
 arrayOfNames.sort();
 console.log(arrayOfNames);

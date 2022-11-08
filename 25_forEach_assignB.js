@@ -51,8 +51,8 @@ array_numbers.forEach((currentValue,index)=>{
 console.log("============================================================");
 console.warn("Que 8:Odd positioned  array value using foreach loop and arrow function");
 array_numbers.forEach((currentValue,index)=>{
-    if (index%2!==0) {
-        console.log("Element:",currentValue);
+    if (index%2!==0&&currentValue<0) {
+        console.log("Element:",currentValue,"Index value:",index);
     }
 })
 console.log("============================================================");
