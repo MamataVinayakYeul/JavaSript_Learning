@@ -17,38 +17,38 @@ const emp_viny=new Employee(88,"Vinayak","IT",75000,"TCS");
 const emp_mahi=new Employee(99,"Mahesh","HR",85000,"Infy");
 console.log("--------------------------------------------------------");
 const array_employees= [emp_anil,emp_radha,emp_rishi,emp_sonali,emp_monika,emp_viny,emp_mahi];
-console.warn("----------------Question 1---------------------------------");
+console.warn("----------------Question 1: Print employee name having company TCS---------------------------------");
 for (const employee of array_employees) {
     if (employee.emp_company==="TCS") {
         console.log(`Employee Name:${employee.emp_name} ,Company:${employee.emp_company}`); 
     } 
 }
-console.warn("----------------Question 2---------------------------------");
+console.warn("----------------Question 2: Print employee name and dept having dept=Finance---------------------------------");
 for (const employee of array_employees) {
     if (employee.emp_dept==="Finance") {
         console.log(`Employee Name:${employee.emp_name} ,Department:${employee.emp_dept}`); 
     } 
 }
-console.warn("----------------Question 3---------------------------------");
+console.warn("----------------Question 3: Print employee name who's name starts with R---------------------------------");
 for (const employee of array_employees) {
     if (employee.emp_name.startsWith("R")) {
         console.log(`Employee Name:${employee.emp_name}`); 
     } 
 }
-console.warn("----------------Question 4---------------------------------");
+console.warn("----------------Question 4: Print employee who's salary >70000---------------------------------");
 for (const employee of array_employees) {
     if (employee.emp_salary>70000) {
         console.log(`Employee Name:${employee.emp_name} ,Company:${employee.emp_company},${employee.emp_salary}`); 
     } 
 }
-console.warn("----------------Question 5---------------------------------");
+console.warn("----------------Question 5: Print employee who's salary >=500000 and dept=IT---------------------------------");
 for (const employee of array_employees) {
     if (employee.emp_salary>=50000 &&employee.emp_dept=="IT") {
         console.log(`Employee Details:-Employee Id:${employee.emp_id},Employee Name:${employee.emp_name},
         Department:${employee.emp_dept},Salary:${employee.emp_salary},Company:${employee.emp_company}`); 
     } 
 }
-console.warn("----------------Question 6---------------------------------");
+console.warn("----------------Question 6:Print employee who's company=Infy---------------------------------");
 for (const employee of array_employees) {
     if (employee.emp_company=="Infy") {
         console.log(`Employee Details:-Employee Id:${employee.emp_id},Employee Name:${employee.emp_name},

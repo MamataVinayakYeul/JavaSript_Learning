@@ -14,18 +14,18 @@ const bank_location={
     pin_code:444101
 }
 console.log(bank_location);
-console.warn("----------------------By using object.assign-----------------------------");
-const cloned_bank_sbi=Object.assign(bank_sbi);
-console.log("Clone object:-",cloned_bank_sbi);
+console.warn("----------------------By using object.assign()-----------------------------");
+const cloned_bank_sbi=Object.assign({},bank_sbi);
+console.log("Cloned object:-",cloned_bank_sbi);
 console.warn("----------------------By using spread operator-----------------------------");
 const my_bank = {...bank_sbi};
-console.log("Clone object:-",my_bank);
-console.warn("----------------------By using object.assign-----------------------------");
-const cloned_bank_location=Object.assign(bank_location);
-console.log("Clone object:-",cloned_bank_location);//By using object_assign method
+console.log("Cloned object:-",my_bank);
+console.warn("----------------------By using object.assign()-----------------------------");
+const cloned_bank_location=Object.assign({},bank_location);
+console.log("Cloned object:-",cloned_bank_location);//By using object_assign method
 console.warn("----------------------By using spread operator-----------------------------");
 const my_bank_location={...bank_location};
-console.log("Clone object:-",my_bank_location);//by using spread operator
+console.log("Cloned object:-",my_bank_location);//by using spread operator
 console.warn("------------------------------------------------------------------------");
 console.log("Question 3:create the object using literal");
 let rate_of_interest={
