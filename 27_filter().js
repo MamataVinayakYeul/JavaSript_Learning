@@ -13,5 +13,11 @@ console.log("-------------Reduce()--------------------");
 let sum=arrayOfNumbers.reduce((value,runningTotal)=>{
 return value+runningTotal;
 });
-console.log(sum);
+console.log("Sum of array elements:",sum);
 console.log("---------------------------------");
+const array=[20,30,4,5,60];
+//returns array element which greater than 10
+const array_new=array.filter((element)=>{
+    return element>10;
+});
+console.log(array_new);
