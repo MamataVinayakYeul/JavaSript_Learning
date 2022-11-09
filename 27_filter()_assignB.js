@@ -37,11 +37,10 @@ console.log("Given array:-",array_numbers);
 console.log("All Multiple of 5, elements from given array:-",array_five_multiple);
 console.warn("------------------------------------------------------------------------------------");
 console.log("Que 5: Find all numbers between 20 and 50");
-const array_between=array_numbers.filter((element,index)=>{
-    if (20<=index||index<=50) {
+const array_between=array_numbers.filter((element)=>{
+    if (20<element&&element<50) {
         return element;
     }
-
 });
 console.log("Given array:-",array_numbers);
 console.log("All number between 20 and 50:-",array_between);
