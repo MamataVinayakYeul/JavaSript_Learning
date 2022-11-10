@@ -49,15 +49,42 @@ array_emps.filter((employee)=>{
 });
 console.warn("=========================================================================");
 console.log("Que 5:Find avg salary of the employee for all the department");
-let average=null;
-let sum= array_emps.reduce((runningTotal,value,index)=>{
-    runningTotal=runningTotal+value;
-    if (index==array_emps.length-1) {
-        average=runningTotal/array_emps.length;
-    }
-    return runningTotal;
+var array1= array_emps.filter((value)=>{
+    return value.emp_dept;
 });
-console.log(`Sum is:${sum}, Total Elements:${array_emps.length},Average:${average}`);
+
+var array2=[];
+array1.forEach((value1) => {
+    array2.push(value1.emp_salary);
+});
+var array3=array2.reduce((a,b)=>{
+    return a+b;
+});
+let avg=array3/array1.length;
+console.log(`Average salary of all employee ${avg}`);
+// let average=null;
+// let sum= array_emps.reduce((runningTotal,value,index)=>{
+//     runningTotal=runningTotal+value;
+//     if (index==array_emps.length-1) {
+//         average=runningTotal/array_emps.length;
+//     }
+//     return runningTotal;
+// });
+// console.log(`Sum is:${sum}, Total Elements:${array_emps.length},Average:${average}`);
 console.warn("=========================================================================");
 console.log("Que 6:Find avg salary for 'IT'dept ");
+
 console.warn("=========================================================================");
+var array1= array_emps.filter((value)=>{
+    return value.emp_dept==="IT";
+});
+
+var array2=[];
+array1.forEach((value1) => {
+    array2.push(value1.emp_salary);
+});
+var array3=array2.reduce((a,b)=>{
+    return a+b;
+});
+// let avg=array3/array1.length;
+console.log(`Average salary of IT department employee ${array3/array1.length}`);
