@@ -35,7 +35,7 @@ console.log(`Total Vowels count:${vowelsCount}`);
 countVowels("I love Javascript");
 countVowels("Good Morning IT Champ");
 console.warn("------------------------------------------------------------");
-console.log("Write a function expression to sum all numbers fro 1-10");
+console.log("Write a function expression to sum all numbers from 1-10");
 var sum=0;
 for (let index = 1; index <=10; index++) {
 var sum=sum+index;

@@ -79,3 +79,4 @@ console.log("------------------------------");
 var string="JavaScript Language";
 // console.log(slice(start,end));
 console.log(`The string contain word`,string.slice(0,10));
+console.log(`The string starts with Java:-` ,string.includes("Java"));

@@ -10,10 +10,14 @@ console.warn("---------------------------------------------");
 var str1="JavaScript";
 var str2="Software";
 console.log("======concat()======");
+console.log(str1.concat(str2));
+console.log(str2.concat(str1));
 console.log("=====charAt()=====");
+console.log(str1.charAt(0));
+console.log(str2.charAt(1));
 console.log("=====indexOf()=========");
-greet.indexOf(4);
-
+console.log(greet.indexOf(4));
+console.log(str1.indexOf(4));
 console.log("======concat()======")
 var fName = "Virat";
 var lName = "Kohli";
@@ -77,7 +81,7 @@ var string1="My name is Raju and i will become a good civilian and good human be
 var string2="My father is a farmer";
 console.log("The length of string My name is Raju and i will become a good civilian and good human being:",string1.length);
 console.log("The length of string-My father is a farmer:", string2.length);
-console.log();
+console.log("--------------------------------------------------------------------------");
 console.log(string1.includes('Raju'));//if string contains given piece(slice) of string then reurn true
 console.log(string2.includes('forther'));//return false
 console.log(string1.concat(string2));
@@ -102,6 +106,7 @@ console.log(text.trim());//return string without space
 var num=240;
 console.log(num.toString());
 var str="hello dev"
+console.warn("---------------------------------------------");
 console.log(str.search("dev"));
 console.log(str.substring(1,4));
 console.log(str.substr(4,6));
@@ -122,7 +127,7 @@ console.log(arr.toLowerCase());
 console.warn("---------------------------------------------");
 var firstName="codemind";
 var lastName="technology";
-console.log(`First name is:${firstName} and Last name is:${lastName}`);//string template
+console.log(`First name is:${firstName} and Last name is:${lastName}`);//string template is a ES6 feature
 
 
 

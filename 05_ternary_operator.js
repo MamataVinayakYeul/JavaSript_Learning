@@ -17,6 +17,6 @@ var num1 = -5;
  console.log= wordLengthSquare("JavaScript");
  wordLengthSquare("Google");
  var givenStringLength="I am Angular Developer".length;
- var result= "I am angular Develor".split(" length");
+ var result= "I am angular Developer".split(" length");
  var total_words=result.length;
  
